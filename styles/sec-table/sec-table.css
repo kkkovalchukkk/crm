@@ -1,0 +1,77 @@
+.sec-table {
+	margin: 20px auto;
+	width: 100%;
+	display: flex;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px #485fc74b;
+	vertical-align: middle;
+	/* resize: horizontal; */
+	/* overflow-x: scroll; */
+	padding: 5px;
+	outline: 1px solid #485fc724;
+}
+
+.sec-table tbody {
+	width: 100%;
+	border-right: 1px solid #030a256d;
+}
+
+.sec-table tr {
+	height: 21px;
+}
+
+.sec-table tr:nth-child(2n) {
+	background-color: #485fc724;
+}
+
+.sec-table tr td:first-child {
+	font-size: 11px;
+}
+
+.sec-table td {
+	font-size: 12px !important;
+	/* line-height: 110%; */
+	outline: 1px solid #485fc724;
+	vertical-align: middle;
+}
+
+.sec-table td div {
+	font-size: 12px !important;
+	width: max-content;
+	padding: 0 4px;
+	height: 100vh;
+	max-height: 21px;
+}
+
+
+.sec-table input[type="date"] {
+	height: 21px;
+	border: none;
+	outline: 1px solid #0000006d;
+}
+
+.sec-table input[type="text"] {
+	width: 120px;
+	height: 21px;
+	border: none;
+	outline: 1px solid #0000006d;
+}
+
+.sec-table input[type="text"] {
+	height: 21px;
+	border: none;
+	outline: 1px solid #0000006d;
+}
+
+.sec-table input[type="text"]:disabled {
+	background-color: #e0e0e0;
+}
+
+.sec-table input[type="text"]:enabled:hover {
+	transition: .13s;
+	background: #f3ff7a;
+}
+
+.is-info {
+	padding: 0 15px !important;
+}
